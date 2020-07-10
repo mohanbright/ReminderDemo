@@ -1,6 +1,6 @@
 # ReminderDemo
 
-####Installation
+#Installation
 -----
 To get a Git project into your build:
 
