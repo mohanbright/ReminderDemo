@@ -1,0 +1,3 @@
+include ':reminder'
+include ':app'
+rootProject.name = "Reminder Builder"
