@@ -45,3 +45,12 @@ buildFeatures{
     implementation 'com.jakewharton.timber:timber:version'
     
 ```
+
+###### add the receiver in your manifeast file
+```xml
+<receiver android:name="app.dev.reminder.receiver.ScheduleEventReceiver">
+            <intent-filter>
+                <action android:name="app.dev.reminder.SCHEDULED_EVENT"/>
+            </intent-filter>
+        </receiver>
+```
