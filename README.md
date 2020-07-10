@@ -22,3 +22,26 @@ dependencies {
 	        implementation 'com.github.mohanbright:ReminderDemo:Tag'
 	}
 ```
+
+### Setup
+1. Add the following dependency in your app level build.gradle file :
+ ```Java
+buildFeatures{
+        dataBinding=true
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+    
+    //Constraint layout
+    implementation 'androidx.constraintlayout:constraintlayout:version'
+
+    //AndroidX lifecycle
+    implementation "androidx.lifecycle:lifecycle-extensions:vaersion"
+    implementation "androidx.lifecycle:lifecycle-common-java8:version"
+
+    //timber
+    implementation 'com.jakewharton.timber:timber:version'
+    
+```
