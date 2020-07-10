@@ -19,7 +19,7 @@ allprojects {
 * Step 2. Add the dependency
 ```Java
 dependencies {
-	        implementation 'com.github.mohanbright:ReminderDemo:Tag'
+	        implementation 'com.github.mohanbright:ReminderDemo:v1.0'
 	}
 ```
 
